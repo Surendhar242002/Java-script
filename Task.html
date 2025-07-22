@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    //=========== Factorial of 5 =====================
+       
+//         let factorial = 1;
+//         debugger
+// for ( i = 1; i <= 5; i++) {
+//   factorial = factorial * i;
+//   console.log("Factorial of 5 is: " + factorial);
+
+// }
+
+//================ Sum of digits ============
+        
+    //    let i = 3;
+    //    for (i=1;i<=3;i++ ){
+    //     i=i+1;
+    //     console.log(""+ i)
+    //    }
+//================== Ticket task=============
+
+// let age= prompt("enter the age :")
+// if(age<12){
+//     alert("The ticket price is $5")
+// }
+// else if (age<18){
+//      alert("The ticket price id $10")
+// }
+// else if(age<60){
+//     alert("The ticket price is $20")
+// }
+// else if(age>60){
+//      alert("The ticket price is $15")
+// }
+
+//=============Discount task===============
+
+// let price = prompt("enter the price :")
+// let discount = 0
+// let category;
+// if ( price>=100){
+//     category="over100"
+// }
+// else if ( price>=50){
+//     category="over50" 
+// }
+// else{
+//     category="Under50"
+// }
+
+// switch (category){
+//     case "over100":
+//         discount=20;
+//         break;
+//     case "over50":
+//         discount=50;
+//         break;
+//     default:
+//         discount=0
+
+// }
+
+// let finalamount=price-discount;
+// console.log("Purchase amount :" + price)
+// console.log("discount applied :" + discount)
+// alert("Final price :" + finalamount)
+
+//==================== BMI Task ================
+
+// let height = prompt("enter the height :")
+// let weight = prompt("entert the weight :")
+// let bmi=weight / (height * height)
+// let category;
+
+// if(bmi<18.5){
+//     category="underweight "
+// }
+// else if(bmi>=18.5 && bmi<=24.9){
+//     category="Normal "
+// }
+// else if(bmi>=25 && bmi<=29.9){
+//     category="overweight "
+// }
+// else if (bmi>=30){
+//     category="obese"
+// }
+
+// switch(category){
+//     case "underweight":
+//         symptoms= "underweight";
+//         break
+//     case "Normal":
+//         symptoms= "Normal"
+//         break
+//     case "overweight":
+//         symptoms="overweight"
+//         break
+//     case "obese":
+//         symptoms="obese"
+//         break
+// }
+
+//========= Leap Year=========
+
+let year=prompt("enter the year :");
+switch(true){
+    case (year%400 === 0):
+    alert(year + "This is a year");
+    break;
+    case(year%100 === 0):
+    alert(year + "this is not a leap year");
+    break;
+    case(year%0 === 0):
+    alert(year+ "This is a leap year ")
+    break;
+    default:
+    alert(year + " is not a leap year");
+    
+}
+    
+
+
+
+
+
+
+    </script>
+</body>
+</html>
