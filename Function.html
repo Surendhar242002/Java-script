@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        function add(a,b){
+            return a+b;
+        }
+        function substraction(a,b){
+            return a-b;
+        }
+        function multiplication(a,b){
+            return a*b;
+        }
+        function division(a,b){
+            return a/b;
+        }
+        function modulo ( a,b){
+            return a%b;
+        }
+
+        let option = prompt("enter the option 1.add 2.sub 3.multiply 4.division 5.modulo");
+        let first = prompt("enter the first value :");
+        let second = prompt("enter the second value:")
+        switch (option){
+            case "1":
+                let add=add(Number(first),Number(second))
+                console.log(add)
+                break;
+            case "2":
+                let sub=substraction(first,second)
+                console.log(sub)
+                break;
+             case "3":
+                let mul=multiplication(first,second)
+                console.log(mul)
+                break;
+             case "4":
+                let divide=division(first,second)
+                console.log(divide)
+                break;
+             case "5":
+                let modu=modulo(first,second)
+                console.log(modu)
+                break;
+            default:
+                console.log("enter the valid option")
+        }
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
